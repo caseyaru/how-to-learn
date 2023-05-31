@@ -1,0 +1,17 @@
+.two-columns__main-text {
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	line-height: 34px;
+	font-size: 24px;
+	width: 80%;
+	max-width: 784px;
+}
+
+@media screen and (max-width: 735px) {
+    .two-columns__main-text {
+       width: 100%;
+	   font-size: 20px;
+	   line-height: 1.2;
+    }
+}

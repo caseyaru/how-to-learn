@@ -1,0 +1,31 @@
+.feynman__image {
+	width: 867px;
+	height: 637px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	object-fit: cover;
+	object-position: left bottom;
+}
+
+@media screen and (max-width: 1280px) {
+    .feynman__image {
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 1084px) {
+    .feynman__image {
+        /* opacity: 1; */
+		width: 567px;
+		height: 420px;
+    }
+}
+
+@media screen and (max-width: 732px) {
+    .feynman__image {
+        /* opacity: 1; */
+		width: 300px;
+		height: 220px;
+    }
+}

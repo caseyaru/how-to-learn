@@ -1,0 +1,11 @@
+.table__cell {
+	width: 250px;
+	margin-top: 60px;
+}
+
+@media screen and (max-width:580px){
+	.table__cell {
+		width: 150px;
+		margin-top: 20px;
+	}
+}

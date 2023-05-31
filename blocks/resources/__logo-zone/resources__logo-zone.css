@@ -1,0 +1,19 @@
+.resources__logo-zone {
+	margin: 80px auto 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width:1200px){
+	.resources__logo-zone {
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 40px;
+	}
+}
+
+@media screen and (max-width:680px){
+	.resources__logo-zone {
+		grid-template-columns: repeat(1, 1fr);
+		margin-top: 40px;
+	}
+}

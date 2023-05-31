@@ -1,0 +1,11 @@
+.logo_place_footer {
+	background-image: url(../../../images/logo_place_footer.svg);
+}
+
+@media screen and (max-width:630px) {
+	.logo_place_footer {
+		width: 150px;
+		height: 21px;
+		background-size: contain;
+	}
+}

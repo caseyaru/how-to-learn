@@ -1,0 +1,20 @@
+.two-columns {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-content: space-between;
+}
+
+@media screen and (min-width: 1500px) {
+    .two-columns {
+	   max-width: 1250px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .two-columns {
+       flex-direction: column;
+	   gap: 40px;
+    }
+}

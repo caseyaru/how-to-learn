@@ -1,0 +1,22 @@
+.feynman__title {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	max-width: 648px;
+	line-height: 1.15em;
+	font-size: 110px;
+	font-weight: 600;
+	z-index: 1;
+}
+
+@media screen and (max-width: 692px) {
+    .feynman__title {
+        max-width: 500px;
+		font-size: 45px;
+		margin-top: 80px;
+		margin-bottom: 40px;
+		width: 80%;
+    }
+}

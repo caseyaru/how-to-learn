@@ -1,0 +1,20 @@
+.table__cell_theme_dark {
+	width: 200px;
+	color: white;
+	margin-right: 0;
+	margin-top: 80px;
+	z-index: 1;
+}
+
+@media screen and (max-width:800px){
+	.table__cell_theme_dark {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width:580px){
+	.table__cell_theme_dark {
+		width: 150px;
+		margin-top: 20px;
+	}
+}

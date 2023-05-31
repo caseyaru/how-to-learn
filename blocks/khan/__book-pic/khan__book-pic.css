@@ -1,0 +1,20 @@
+.khan__book-pic {
+	width: 620px;
+	height: 608px;
+	object-fit: cover;
+	object-position: left top;
+}
+
+@media screen and (max-width:930px){
+	.khan__book-pic {
+		width: 320px;
+		height: 320px;
+	}
+}
+
+@media screen and (max-width:480px){
+	.khan__book-pic {
+		width: 200px;
+		height: 196px;
+	}
+}

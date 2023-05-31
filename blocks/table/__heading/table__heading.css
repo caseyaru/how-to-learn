@@ -1,0 +1,13 @@
+.table__heading {
+	margin: 0;
+	padding: 0;
+	line-height: 1.15em;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+@media screen and (max-width:580px){
+	.table__heading {
+		font-size: 18px;
+	}
+}

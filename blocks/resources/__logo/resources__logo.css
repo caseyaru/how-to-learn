@@ -1,0 +1,10 @@
+.resources__logo {
+	width: 270px;
+	height: 38px;
+}
+
+@media screen and (max-width:400px){
+	.resources__logo {
+		width: 150px;
+	}
+}

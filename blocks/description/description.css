@@ -1,0 +1,10 @@
+.description {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+@media screen and (max-width:745px){
+    .description {
+		margin: 60px auto 60px;
+	}
+}

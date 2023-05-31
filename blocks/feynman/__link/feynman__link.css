@@ -1,0 +1,36 @@
+.feynman__link {
+	margin: 0;
+	padding: 0;
+	line-height: 51px;
+	font-size: 36px;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	right: 48px;
+	z-index: 1;
+	color: #2f80ed;
+	transition: opacity 0.8s linear;
+}
+
+.feynman__link:hover {
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 1084px) {
+    .feynman__link {
+        top: 80%;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .feynman__link {
+        font-size: 24px;
+		color:#191970;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .feynman__link {
+        top: 60%;
+    }
+}

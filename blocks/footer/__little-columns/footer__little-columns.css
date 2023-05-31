@@ -1,0 +1,14 @@
+.footer__little-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 110px;
+}
+
+@media screen and (max-width:700px){
+    .footer__little-columns {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,22 @@
+.header__main-illustration {
+	background-size: contain;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 765px;
+	height: 608px;
+}
+
+@media screen and (max-width: 1279px) {
+	.header__main-illustration {
+		/* display: none; */
+		width: calc(765px / 1.5);
+		height: calc(608px / 1.5);
+	}
+}
+
+@media screen and (max-width: 1059px) {
+	.header__main-illustration {
+		display: none;
+	}
+}

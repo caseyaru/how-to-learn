@@ -1,0 +1,33 @@
+.video__iframe {
+	border: 0 none;
+	width: 515px;
+	height: 316px;
+}
+
+@media screen and (max-width: 1150px) {
+    .video__iframe {
+		width: 415px;
+		height: 216px;
+    }
+}
+
+@media screen and (max-width: 936px) {
+    .video__iframe {
+		width: 515px;
+		height: 316px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .video__iframe {
+		width: 415px;
+		height: 216px;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .video__iframe {
+		width: 300px;
+		height: 156px;
+    }
+}
